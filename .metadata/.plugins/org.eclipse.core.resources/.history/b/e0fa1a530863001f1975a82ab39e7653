@@ -1,0 +1,21 @@
+package StringBuilder;
+
+public class ReverseEvenWords {
+    public static void main(String[] args) {
+     
+        String s = "welcome to mindtree hyderabad";
+        String[] ss = s.split(" ");
+     
+        StringBuilder sb = new StringBuilder();
+     
+        // Collect even-indexed words
+        for (int i = 0; i < ss.length; i++) {
+            if ((i + 1) % 2 == 0) { // Check if index is even (1-based)
+                sb.append(new StringBuilder(ss[i]).reverse().toString()); // Reverse the word
+                sb.append(" "); // Add space after each reversed word
+            }
+        }
+     
+        System.out.println("Even words reversed: " + sb.toString().trim());
+    }
+}

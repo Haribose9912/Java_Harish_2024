@@ -1,0 +1,38 @@
+package Day3;
+import java.util.*;
+public class Replace_char {
+
+	  public static void main (String[] args) {
+		  
+	  //print even chars and replace even chars with '*' // 
+		  
+	  String s="harieshkumar";
+	  ArrayList<Character>al = new ArrayList<>();
+	  for(int i=2;i<s.length();i=i+2){
+	    char c=s.charAt(i); 
+	    al.add(c);
+	  }System.out.println(al);
+	  
+	  StringBuilder st = new StringBuilder();
+	 for(char ch:al){
+	   st.append(ch);
+	 }
+	 String ss = st.toString();
+	 System.out.println("even chars: "+ss);
+	 
+	 String m = "tigerontheroad";
+	 StringBuilder sb= new StringBuilder(m);
+	 for(int i=2;i<sb.length();i=i+2) {
+		 sb.setCharAt(i, 'H');
+		 
+	 }System.out.println("after replacing even chars with '*' : "+sb);
+	 
+	 String sl = "harieshkumarh"
+	 StringBuilder sl = new StringBuilder(sb);
+	 for (int i = 0; i < sl.length(); i++) {
+         if (sl.charAt(i) == 'h') {
+             sl.setCharAt(i, 'L');
+         }
+     }System.out.println(sl);
+  }
+}

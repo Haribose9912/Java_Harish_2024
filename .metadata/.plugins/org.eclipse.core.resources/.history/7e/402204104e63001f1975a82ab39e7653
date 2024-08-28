@@ -1,0 +1,15 @@
+package StringBuilder;
+import java.util.*;
+public class Convert_int_array {
+	int num =9811;
+	ArrayList<Integer> al = new ArrayList<>();
+
+	void intToArray(int num){
+	    if( num != 0){
+	        int temp = num %10;
+	        num /= 10;
+	        intToArray(num);
+	        al.add(temp);
+	    }
+	}
+}

@@ -1,0 +1,19 @@
+import java.util.*;
+
+
+public class char_occur_hash_map{
+  public static void main (String[] args) {
+    String s ="autnomatioon";
+    Map<Character,Integer> m= new HashMap<>();
+    char chars[]=s.toCharArray();
+    for(char ch:chars){
+      m.put(ch,m.getOrDefault(ch,0)+1);
+    }
+    
+    for(Map.Entry<Character,Integer>entry : m.entrySet()){
+      
+      System.out.println("'"+entry.getKey()+"'"+" : "+entry.getValue());
+    }
+    
+  }
+}

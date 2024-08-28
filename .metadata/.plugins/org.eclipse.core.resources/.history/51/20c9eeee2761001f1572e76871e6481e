@@ -1,0 +1,25 @@
+package Day2;
+import java.util.*;
+
+public class char_occur_hash_map {
+	 public static void main(String[] args) {
+		 
+		 String s ="jkhgfghjass";
+	     Map<Character,Integer> mp = new HashMap<>();
+	     
+	     char []chars = s.toCharArray();
+	     
+	     for(char ch:chars){
+	       if(!mp.containsKey(ch)){
+	         int mpcount =mp.get(ch);
+	         mp.put(ch,mpcount+1);
+	       }else{
+	         mp.put(ch,1);
+	       }
+	     }
+	     for(Map.Entry<Character,Integer>getmap:mp.entrySet()){
+	       System.out.println(getmap.getKey()+" : "+getmap.getValue());
+	     }
+	      
+	 }
+}

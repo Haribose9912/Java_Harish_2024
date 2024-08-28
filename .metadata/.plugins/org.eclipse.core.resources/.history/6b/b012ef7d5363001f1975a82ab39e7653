@@ -1,0 +1,12 @@
+package Day3;
+
+public class PrimeNum {
+public static void main(String[] args) {
+	int n=17;
+	if(isPrime(n)) {
+		System.out.println(n+" its a prime");
+	}else {
+		System.out.println(n+" its not a prime");
+	}
+}
+}

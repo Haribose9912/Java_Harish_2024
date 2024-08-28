@@ -1,0 +1,20 @@
+package Selenium;
+
+import java.time.Duration;
+
+public class Waits {
+
+	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+	
+	WebElement button = driver.findElement(By.xpath("//button[@class='bjka']"));
+
+	wait.until(ExpectedCondtions.ElementToBeClickable(button));
+	button.click();
+	
+	//Fluent wait
+	
+	WebDriverWait Fwait = new FluentWait(diver).withTime(Duration.ofSeconds(5)).
+	
+	
+	
+}

@@ -1,0 +1,30 @@
+package Selenium;
+
+public class Actions {
+
+//	Actions act new Actions(driver);
+//	
+//	
+//	WebElemet source =driver.findElemet(By.xpath("//*[@class='source']"));
+//	
+//	WebElemet target =driver.findElemet(By.xpath("//*[@class='target']"));
+//	
+//	act.dragAndDrop(source,target).build().perform();
+//	act.click(source).build().perform();
+//	act.moveToElement(source).build().perform();
+//	act.contextClick(target).build().perform();
+//	act.clickAndHold(source).moveToElement(target).release().build().perform();
+	
+	
+	//alerts
+	
+	Alert al = driver.switchTo().alert();
+	
+	al.accept();
+	al.dismiss();
+	al.sendKeys("hghj");
+	al.getText();
+	
+	
+	
+}

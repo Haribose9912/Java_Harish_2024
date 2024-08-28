@@ -1,0 +1,13 @@
+package Selenium;
+
+import java.io.File;
+
+public class Screenshot {
+
+	File sc = ((TakeScreenshot)driver).getScreenShotAs(OutputType.File);
+	File path = new File("./selenum/screenshot.png");
+	FileUtils.copyFile(sc,path);
+	
+	
+	
+}

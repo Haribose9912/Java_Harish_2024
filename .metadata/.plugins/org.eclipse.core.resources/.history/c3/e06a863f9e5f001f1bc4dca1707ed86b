@@ -1,0 +1,11 @@
+package Day1;
+import java.util.*;
+public class EvenAndOddNum {
+
+	ArrayList<Integer> num = new ArrayList<>();
+	
+	
+	
+	
+	
+}

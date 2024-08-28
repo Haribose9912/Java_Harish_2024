@@ -1,0 +1,25 @@
+package Day2;
+import java.util.HashMap;
+import java.util.Map;
+
+public class char_occur_hash_map {
+	  public static void main (String[] args) {
+		  
+	    String s ="autnomatioon";
+	    
+	    Map<Character,Integer> m= new HashMap<>();
+	    
+	    char chars[]=s.toCharArray();
+	    
+	    for(char ch:chars){
+	      m.put(ch,m.getOrDefault(ch,0)+1);
+	    }
+	    
+	    //printing char occurances//
+	    
+	    for(Map.Entry<Character,Integer>chentry : m.entrySet()){
+	      System.out.println("'"+chentry.getKey()+"'"+" : "+chentry.getValue());
+	    }
+	    
+	}
+}

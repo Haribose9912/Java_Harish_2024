@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Day2.CountWords"/>
+    <fullyQualifiedTypeName name="Day2.Palindorme"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="Practise.new_Return"/>
+    <fullyQualifiedTypeName name="java.awt.peer.SystemTrayPeer"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.MatchException"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="Day2.DuplicateChars"/>
+    <fullyQualifiedTypeName name="Day2.DuplicateWords"/>
+    <fullyQualifiedTypeName name="Collections.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="Day1.overRideing_child"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javax.management.modelmbean.ModelMBean"/>
+    <fullyQualifiedTypeName name="Day1.overRideing_parent"/>
+    <fullyQualifiedTypeName name="Day1.Str_num"/>
+    <fullyQualifiedTypeName name="Day1.Interface_2"/>
+    <fullyQualifiedTypeName name="Day4.Interface"/>
+    <fullyQualifiedTypeName name="Day1.Interface_demo"/>
+    <fullyQualifiedTypeName name="Day1.Interface_demo.car"/>
+    <fullyQualifiedTypeName name="Day1.Interface_usage"/>
+    <fullyQualifiedTypeName name="Collections.Array_to_List"/>
+    <fullyQualifiedTypeName name="Day2.FindDigiCharSpecl"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="Collections.Set"/>
+    <fullyQualifiedTypeName name="Day2.ReverseEachWord"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+    <fullyQualifiedTypeName name="java.lang.StackTraceElement"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

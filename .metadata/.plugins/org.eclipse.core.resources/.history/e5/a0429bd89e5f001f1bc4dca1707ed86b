@@ -1,0 +1,16 @@
+package Day1;
+import java.util.*;
+
+
+public class EvenAndOddNum {
+public static void main(String[] args) {
+	ArrayList<Integer> even = new ArrayList<Integer>();
+	
+	for(int i=0;i<=20;i=i+2) {
+		even.add(i);
+		
+	}System.out.println(even);
+
+	
+}
+}

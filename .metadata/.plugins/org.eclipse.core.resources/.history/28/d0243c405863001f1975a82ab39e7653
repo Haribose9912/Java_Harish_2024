@@ -1,0 +1,15 @@
+package Selenium;
+
+public class JavaScript_exec {
+	 JavascriptExecutor js = (JavascriptExecutor) driver;
+	
+	
+	js.executeScript("arguments[0].click();",ele);
+	
+	js.executeScript("arguments[0].scrollToView(true);",ele);
+	
+	js.executeScript("window.scrollBy(0,100);");
+	
+	js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
+	
+}

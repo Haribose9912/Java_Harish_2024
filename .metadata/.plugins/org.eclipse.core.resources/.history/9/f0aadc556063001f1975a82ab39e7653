@@ -1,0 +1,15 @@
+package Selenium;
+
+public class Waits {
+
+	WebDriverWait wait = new WebDriverWait(Driver,Duration().ofSecods(10));
+	
+	WebElement button = driver.findElement(By.xpath("//button[@class='bjka']"));
+
+	wait.until(ExpectedCondtions.ElementToBeClickable(button));
+	button.click();
+	
+	
+	
+	
+}

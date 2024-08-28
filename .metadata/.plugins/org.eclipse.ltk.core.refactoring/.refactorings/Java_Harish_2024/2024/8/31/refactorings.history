@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Collections.Array_to_Set&apos; to &apos;Array_to_Set_to_String&apos;&#x0D;&#x0A;- Original project: &apos;Oops_concepts&apos;&#x0D;&#x0A;- Original element: &apos;Collections.Array_to_Set&apos;&#x0D;&#x0A;- Renamed element: &apos;Collections.Array_to_Set_to_String&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Array_to_Set&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Collections{Array_to_Set.java[Array_to_Set" matchStrategy="1" name="Array_to_Set_to_String" qualified="false" references="true" similarDeclarations="false" stamp="1722571553182" textual="false" version="1.0"/>
+</session>

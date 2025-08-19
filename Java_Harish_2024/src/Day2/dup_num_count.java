@@ -1,3 +1,5 @@
+package Day2;
+
 import java.util.*;
 
 public class dup_num_count {
@@ -7,7 +9,7 @@ public class dup_num_count {
      
      List<Integer> nl = new ArrayList<>();
      
-    // int count =0;
+
      for(int num:nums){
        nl.add(num);
      }

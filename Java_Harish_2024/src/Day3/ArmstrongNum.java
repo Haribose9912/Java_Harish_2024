@@ -28,3 +28,22 @@ public class ArmstrongNum {
         sc.close();
     }
 }
+
+// **Armstrong numbers** are special numbers where:
+
+// > If you take each digit, raise it to the power of how many digits the number has, and then add those up, you get the original number back.
+
+// Example:
+
+// * Number: **153**
+//   Number of digits = 3
+//   Calculation: $1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153$
+//   Since the sum equals the number itself, **153 is an Armstrong number.**
+
+// * Number: **123**
+//   Number of digits = 3
+//   Calculation: $1^3 + 2^3 + 3^3 = 1 + 8 + 27 = 36$
+//   Sum is not equal to 123, so **123 is NOT an Armstrong number.**
+
+// All single-digit numbers (0 to 9) are Armstrong numbers because $d^1 = d$.
+

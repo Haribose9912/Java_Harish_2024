@@ -1,6 +1,6 @@
 package Day3;
 
-public class Sorter {
+public class bubblesort_Anagram {
     // Bubble sort implementation for char arrays
     public static void bubbleSort(char[] arr) {
         int n = arr.length;

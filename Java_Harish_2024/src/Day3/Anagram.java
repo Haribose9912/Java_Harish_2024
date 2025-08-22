@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Anagram {
     public static void main(String[] args) {
-        String str1 = "dad";
-        String str2 = "add";
+        String str1 = "rood";
+        String str2 = "door";
         
         // Normalize input
         str1 = str1.replaceAll("\\s", "").toLowerCase();
@@ -13,15 +13,14 @@ public class Anagram {
         // Check if the lengths are different
         if (str1.length() != str2.length()) {
             System.out.println(str1 + " and " + str2 + " are not anagrams.");
-            return; // Exit if lengths do not match
+            return;
         }
 
-        // Initialize ArrayLists for character counts
+        // Initialize frequency lists for a-z letters
         List<Integer> count1 = new ArrayList<>();
         List<Integer> count2 = new ArrayList<>();
         
-        // Initialize lists with zero counts
-        for (int i = 0; i < 11; i++) {
+        for (int i = 0; i < 26; i++) {
             count1.add(0);
             count2.add(0);
         }
@@ -46,3 +45,4 @@ public class Anagram {
         }
     }
 }
+

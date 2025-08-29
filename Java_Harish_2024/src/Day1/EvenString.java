@@ -3,18 +3,16 @@ import java.util.*;
 
 public class EvenString {
 	public static void main(String[] args) {
-	      ArrayList<Character> al = new ArrayList<>();
-	      String s ="automation";
-	      for(int i=2;i<s.length();i=i+2){
-	        char ch = s.charAt(i);
-	        al.add(ch);
-	        System.out.println("index: "+i+" char: "+ch);
-	      }System.out.println(al);
-	      StringBuilder sb = new StringBuilder();
-	      for(char ch:al) {
-	    	  sb.append(ch);
-	      }
-	      String ss =sb.toString();
-	      System.out.println(ss);
+String s ="hariesh";
+
+ArrayList<Character> sl = new ArrayList<>();
+for(int i=2;i<s.length();i++){
+  char ch = s.charAt(i);
+  if(i%2==0){
+    sl.add(ch);
+  }
+}System.out.println(sl);
+  
 	  }
 }
+//we can also use stringbuilder to append to show in string format instead of list

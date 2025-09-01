@@ -3,22 +3,27 @@ import java.util.*;
 public class anagramWithMap {
 
   public static void main(String args[]) {
-    String words[] = {"haris", "name", "anme", "hari"};
+    String words[]  ={"haris","name","anme","hari"};
+    
+Map<String,String> maps = new HashMap<>();
 
-    Map<String, String> map = new HashMap<>();
-
-    for (String word : words) {
-      String cleaned = word.replaceAll("\\s", "");
-
-      char chars[] = cleaned.toCharArray();
-      Arrays.sort(chars);
-      String sorted = new String(chars);
-
-      if (map.containsKey(sorted)) {
-        System.out.println("Found anagrams: " + word + " and " + map.get(sorted));
-      } else {
-        map.put(sorted, word);
-      }
-    }
+for(String word:words){
+  String Cleaned =word.replaceAll("\\s","");
+  
+  char chars[]  = word.toCharArray();
+  
+  Arrays.sort(chars);
+  
+  String sorted = new String(chars);
+  
+  
+  if(maps.containsKey(sorted)){
+    System.out.println("found anagrams: "+word +" match with  "+maps.get(sorted));
+  }else{
+    maps.put(sorted,word);
+  }
+  
+  
+}
   }
 }

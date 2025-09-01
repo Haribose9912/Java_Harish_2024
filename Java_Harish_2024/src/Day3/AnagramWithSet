@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class AnagramWithSet {
+    public static void main(String[] args) {
+        String[] words = {"soft", "tofs", "pots", "stop", "tops", "hello"};
+
+        Set<String> seen = new HashSet<>();
+
+        for (String word : words) {
+            String cleaned = word.replaceAll("\\s", "");
+            char[] chars = cleaned.toCharArray();
+            Arrays.sort(chars);
+            String sorted = new String(chars);
+
+            if (seen.contains(sorted)) {
+                System.out.println("Anagram found for word: " + word);
+            } else {
+                seen.add(sorted);
+            }
+        }
+    }
+}

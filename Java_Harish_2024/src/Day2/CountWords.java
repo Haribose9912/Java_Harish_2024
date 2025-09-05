@@ -1,28 +1,25 @@
-package Day2;
+import java.util.*;
 
 public class CountWords {
 
-	public void test(String w){
-//You can also count character by giving ch=='c' and change int count=1 instead of 0; Beacuse word count will miss 1st word.//
-//		as 1st word before no space so it will not count that word.// and count ++ added to times in word count and count++
-//		one time for character count
-		int count =0;
-		for(int i=0;i<w.length();i++) {
-			char ch = w.charAt(i);
-			
-			if(ch==' ') {
-			count++;
-			}
-		}count++;
-		System.out.println("count of words: "+w+" = "+count);
-		
-	}
-	
-	public static void main(String[] args) {
-		String w1 ="Hello am harish thanks to the program";
-		String w2 = "Am on my way to office";
-		CountWords cw = new CountWords();
-		cw.test(w1);
-		cw.test(w2);
-	}
+    public void countWord(String s) {
+        int count = 1;
+        s = s.toLowerCase().trim();
+        System.out.println(s);
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (ch == ' ') {
+                count++;
+            }
+        }
+
+        System.out.println("Word count: " + count);
+    }
+
+    public static void main(String[] args) {
+        CountWords m = new CountWords();
+        String ws = "hello am haries how are yoy here thabks";
+        m.countWord(ws);
+    }
 }

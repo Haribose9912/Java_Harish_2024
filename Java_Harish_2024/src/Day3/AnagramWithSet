@@ -1,5 +1,5 @@
 import java.util.*;
-
+// learn anagram with MAP that is only good
 public class AnagramWithSet {
     public static void main(String[] args) {
         String[] words = {"soft", "tofs", "pots", "stop", "tops", "hello"};

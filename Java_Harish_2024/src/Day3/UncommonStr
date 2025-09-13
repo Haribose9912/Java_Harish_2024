@@ -1,0 +1,34 @@
+public class UncommonStr {
+    public static void main(String[] args) {
+        String[] vegetables = {"Beetroot", "Pineapple", "Carrot", "Beans", "Orange"};
+        String[] fruits = {"Apple", "Orange", "Beetroot", "Guava", "Carrot", "Pineapple"};
+
+        System.out.println("Uncommon items:");
+
+        // 1. Items in vegetables but not in fruits
+        for (int i = 0; i < vegetables.length; i++) {
+            int count = 0;
+            for (int j = 0; j < fruits.length; j++) {
+                if (vegetables[i].equals(fruits[j])) {
+                    count++;
+                }
+            }
+            if (count == 0) {
+                System.out.println(vegetables[i]);
+            }
+        }
+
+        // 2. Items in fruits but not in vegetables
+        for (int i = 0; i < fruits.length; i++) {
+            int count = 0;
+            for (int j = 0; j < vegetables.length; j++) {
+                if (fruits[i].equals(vegetables[j])) {
+                    count++;
+                }
+            }
+            if (count == 0) {
+                System.out.println(fruits[i]);
+            }
+        }
+    }
+}

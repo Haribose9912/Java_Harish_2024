@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class SortEvenStringArr {
+    public static void main(String[] args) {
+
+        String nums[] = {"81", "22", "80", "2", "59", "35", "77", "18", "99"};
+        int n = nums.length;
+
+        // Step 1: Extract even numbers and their positions
+        ArrayList<Integer> evenNumbers = new ArrayList<>();
+        ArrayList<Integer> evenIndices = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            int num = Integer.parseInt(nums[i]);
+            if (num % 2 == 0) {
+                evenNumbers.add(num);
+                evenIndices.add(i);
+            }
+        }
+
+        // Step 2: Sort the even numbers
+        Collections.sort(evenNumbers);
+
+        // Step 3: Put the sorted even numbers back into their respective positions
+        for (int i = 0; i < evenIndices.size(); i++) {
+            nums[evenIndices.get(i)] = Integer.toString(evenNumbers.get(i));
+        }
+
+        // Output the result
+        System.out.println(Arrays.toString(nums));
+    }
+}

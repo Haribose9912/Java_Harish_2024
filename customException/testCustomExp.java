@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class testprime {
+public class testCustomExp {
   
 public static int vote(int age)throws custexp{
   if(age<18){

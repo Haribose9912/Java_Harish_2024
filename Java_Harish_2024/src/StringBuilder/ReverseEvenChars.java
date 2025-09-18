@@ -5,7 +5,7 @@ public class ReverseEvenChars {
 
         // Step 1: Collect even-index characters
         StringBuilder evens = new StringBuilder();
-        for (int i = 0; i < sb.length(); i += 2) {
+        for (int i = 2; i < sb.length(); i += 2) {
             evens.append(sb.charAt(i));
         }
 
@@ -14,7 +14,7 @@ public class ReverseEvenChars {
 
         // Step 3: Put them back into even indices
         int k = 0;
-        for (int i = 0; i < sb.length(); i += 2) {
+        for (int i = 2; i < sb.length(); i += 2) {
             sb.setCharAt(i, evens.charAt(k++));
         }
 
